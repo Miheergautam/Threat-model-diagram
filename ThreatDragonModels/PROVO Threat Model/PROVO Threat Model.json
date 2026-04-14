@@ -1,0 +1,37 @@
+{
+  "version": "2.3.0",
+  "summary": {
+    "title": "PROVO Threat Model",
+    "owner": "PROVO Development Team",
+    "description": "Privacy-Enhanced Resort and Vacancy Online (PROVO) is a system designed to manage bookings and logistics for a luxury resort on a private island in the United States Virgin Islands. The system supports VIP guest bookings, identity verification, AI-based face recognition for access control, payment processing, and administrative management. The system handles sensitive information including guest identities, biometric face recognition data, booking information, and payment details. Due to the high-profile nature of guests, the system requires strong privacy, security, and availability protections.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "development engineers"
+      },
+      {
+        "name": "product managers"
+      },
+      {
+        "name": "security architects"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 1,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.0",
+        "cells": [],
+        "description": "PROVO System DFD"
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "Security Consultant",
+    "threatTop": 0
+  }
+}
